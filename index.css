@@ -1,0 +1,89 @@
+@charset "UTF-8";
+    
+ @font-face {
+    font-family:'kala' ;
+    src: url(fonte/Kalam-Regular.ttf);
+ }   
+
+@font-face {
+    font-family:'caveat';
+    src: url(fonte/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+
+*{
+    margin: 0px; 
+}
+
+
+
+
+
+
+.normal{ background-color: white;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+
+
+}
+
+.imagem{
+    color: rgb(255, 255, 255); padding: 20px 5px 20px 5px; border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(29, 26, 26, 0.767);
+}
+section p{ }
+
+
+#img1{ background-image: url(imagens/background001.jpg); background-size: 100hv; background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+#img2{ background-image: url(imagens/background002.jpg); background-size:cover; background-repeat: no-repeat; background-position:right center; padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+header{ background-color: black; color: white; text-align: center; padding-bottom: 40px; padding-top: 40px;
+
+}
+
+footer{ background-color: black; color: white; text-align: center;
+
+}
+span{
+    font-weight: 100; font-size: 0,5em;
+}
+
+
+
+a{ text-decoration: none;
+    color: white; font-weight: bolder;
+    text-decoration-color: rgb(161, 161, 161);
+
+}
+a:hover{
+    text-decoration: underline; 
+}
+div{ background-color: rgba(0, 0, 0, 0.589); padding: 5px 5px 5px 10px;  display: inline-block;  
+
+}
+ main{
+    font-family: 'kala' ; max-width: 3000px;
+ }
+
+p{padding-top:10px ; 
+}
+
+h1{ font-weight: bolder; font-family: 'caveat';
+font-size: 4em;
+}
+
+section{ 
+
+}
